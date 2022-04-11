@@ -20,6 +20,7 @@
                     <a href="#projects"><h3>Projects</h3></a>
                     <a href="#skills"><h3>Skills</h3></a>
                     <a href="#about"><h3>About Me</h3></a>
+                    <a href="images/resume_natecox.pdf" target="_blank" rel="noopener noreferrer"><h3>Resume</h3></a>
 				</div>
 			</header>
 
@@ -27,39 +28,67 @@
 			<div id="main">
 
 				<!-- One -->
-					<section id="one">
+					<!-- <section id="one">
 						<header class="major">
 							<h2>Nate Cox | Data Scientist</h2>
 						</header>
 						<p>I'm a data scientist who enjoys solving problems for companies that seek continuous improvement and growth. Through thoughtful analysis, I embrace challenges that help clients make informed decisions using data.</p>
 						<ul class="actions">
-							<!-- <li><a href="#two" class="button">Projects</a></li> -->
 							<li><a href="images/resume_natecox.pdf" class="button" target="_blank" rel="noopener noreferrer">Resume</a></li>
 						</ul>
+					</section> -->
+
+                    <section id="one">
+                        <header class="major">
+                            <h2>Nate Cox | Data Scientist</h2>
+                        </header>
+                        <div class="row">
+                            <div class="col-12 col-12-xsmall">
+                                <p class="header-p">
+                                    I'm a data scientist who enjoys solving problems for companies that seek continuous improvement and growth. 
+                                    Through thoughtful analysis, I embrace challenges that help clients make informed decisions using data.
+                                </p>
+                                
+                            </div>
+                            <div class="col-12 col-12-xsmall">
+                                <ul class="actions">
+                                    <li><a href="https://www.linkedin.com/in/natecox707/" class="button" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                                    <li><a href="https://github.com/ncox707" class="button" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                                    <li><a href="https://medium.com/@ncox0906" class="button" target="_blank" rel="noopener noreferrer">Articles</a></li>
+                                    <li><a href="images/resume_natecox.pdf" class="button" target="_blank" rel="noopener noreferrer">Resume</a></li>
+                                </ul>
+                            </div>
+                        
+                        </div>
 					</section>
 
 				<!-- Two -->
 					<section id="projects">
-						<h2>Recent Work</h2>
+						<h2>Projects</h2>
 						<div class="row">
 							<article class="col-12 col-12-xsmall work-item">
-								<img class="image fit thumb" src="images/tableau_dcd.png" alt="" />
 								<h3>Increasing Profits of a Food Distribution Company</h3>
+                                <br>
+								<img class="image fit thumb" src="images/tableau_dcd.png" alt="" />
 								<p>
                                     A business was having supply issues with one of its product lines. 
                                     This lack of supply was causing profits to decrease. 
                                     I looked into other parts of the business and used RFM and K-means clustering to identify areas where more profits could be generated. 
                                     I presented a list of products and stores to target to the business. 
-                                    I also created a Tableau Dashboard to allow the businiess owners to explore more of the data on their own. 
+                                    I also created a <a href="https://public.tableau.com/app/profile/nate.cox/viz/DCDProfits/ProductSales?publish=yes" target="_blank" rel="noopener noreferrer">Tableau Dashboard</a> to allow the businiess owners to explore more of the data on their own. 
                                     I found my recommendations would generate a 2.2% increase in profits.
                                 </p>
                                 <br>
-                                <a href="https://github.com/ncox707/dcd_profits" class="button small" target="_blank" rel="noopener noreferrer">View this Project</a>
+                                <div class="view-project">
+                                    <a href="https://github.com/ncox707/dcd_profits" class="button" target="_blank" rel="noopener noreferrer">View this Project</a>
+                                    <a href="https://medium.com/@ncox0906/capstone-project-helping-a-business-increase-profits-26c1148e19ef" class="button" target="_blank" rel="noopener noreferrer">Blog Post</a>
+                                </div>
                                 <hr>
 							</article>
 							<article class="col-12 col-12-xsmall work-item">
-								<img class="image fit thumb" src="images/tableau_gd.png" alt="" />
 								<h3>Helping Dogs in Shelters that Experience Long Adoption Wait Times</h3>
+                                <br>
+								<img class="image fit thumb" src="images/tableau_gd.png" alt="" />
 								<p>
                                     In this group project, my group and I tried to help shelter dogs get a new home.
                                     We started with datasets, provided by Austin Animal Center and The Intelligence of Dogs dataset (1994). 
@@ -71,12 +100,15 @@
                                     So we used Streamlit to create an App that is able to gather up to date data from hundreds of shelters by web scraping Petfinder.com and filter dogs at higher risk.
                                 </p>
                                 <br>
-                                <a href="https://github.com/ncox707/gooddogs" class="button small" target="_blank" rel="noopener noreferrer">View this Project</a>
+                                <div class="view-project">
+                                    <a href="https://github.com/ncox707/gooddogs" class="button" target="_blank" rel="noopener noreferrer">View this Project</a>
+                                </div>
                                 <hr>
 							</article>
 							<article class="col-12 col-12-xsmall work-item">
-								<img class="image fit thumb" src="images/scattertext_reddit.png" alt="" />
 								<h3>Predicting What Subreddit a Comment Comes From</h3>
+                                <br>
+								<img class="image fit thumb" src="images/scattertext_reddit.png" alt="" />
 								<p>
                                     This project uses Natural Language Processing (NLP) to determine what subreddit a comment comes from.
                                     I used the Pushshift Reddit API to gather more than 115,000 comments from two very similar subreddits.
@@ -84,7 +116,10 @@
                                     This model ended up beating the baseline accuracy by 17.6 percentage points for predicting what subreddit a comment came from.
                                 </p>
                                 <br>
-                                <a href="https://github.com/ncox707/reddit_nlp" class="button small" target="_blank" rel="noopener noreferrer">View this Project</a>
+                                <div class="view-project">
+                                    <a href="https://github.com/ncox707/reddit_nlp" class="button" target="_blank" rel="noopener noreferrer">View this Project</a>
+                                    <a href="https://medium.com/mlearning-ai/can-you-predict-what-subreddit-a-comment-comes-from-97484acea41b" class="button" target="_blank" rel="noopener noreferrer">Blog Post</a>
+                                </div>
 							</article>
 							<!-- <article class="col-6 col-12-xsmall work-item">
 								<a href="images/fulls/04.jpg" class="image fit thumb"><img src="images/thumbs/04.jpg" alt="" /></a>
